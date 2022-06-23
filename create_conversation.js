@@ -31,7 +31,6 @@ const openWebSocket = tokenResponse => {
 
         ws.send(`{"kind":"req","id":2,"type":"ms.PublishEvent","body":{"dialogId":"${conversationId}","event":{"type":"ContentEvent","contentType":"text/plain","message":"My first message"}}}`);
     });
-
 }
 
 // Resolve promises and generate conversation
