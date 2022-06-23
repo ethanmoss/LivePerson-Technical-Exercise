@@ -1,0 +1,16 @@
+{
+  "name": "liveperson-technical-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "create_conversation.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ethan Moss",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "ws": "^8.8.0"
+  }
+}
